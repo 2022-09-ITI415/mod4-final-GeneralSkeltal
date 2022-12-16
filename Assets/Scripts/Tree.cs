@@ -14,6 +14,7 @@ public class Tree : MonoBehaviour
 
     public void OnInteract()
     {
+        Debug.Log("playerTryingToClimbTree");
         playerObj.transform.position = teleportTarget.position;
     }
 }
